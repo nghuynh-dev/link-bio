@@ -1,0 +1,37 @@
+.content {
+    &-items {
+    }
+}
+.skill {
+    &-container {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        // align-items: center;
+        // padding-top: 20px;
+        color: #b3b3b3;
+    }
+    &-col {
+        width: 33.3333333333%;
+        background-color: #313131;
+        border-radius: 10px;
+        padding: 20px 0px 40px 36px;
+        box-sizing: border-box;
+        margin: 35px;
+
+        h3 {
+            color: yellow;
+            padding: 8px 0px;
+        }
+        li {
+            &:hover {
+                // color: #fff;
+            }
+        }
+        ul {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+    }
+}

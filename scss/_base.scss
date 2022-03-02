@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.app {
+  background-image: linear-gradient(#b0b1b1, black);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  font-size: 14px;
+}
+input {
+  line-height: normal;
+}
+.btn {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-items.active {
+  display: block;
+}
+
+.content-items {
+  display: none;
+}
+
+.content {
+  height: 100%;
+  padding-bottom: 60px;
+}
